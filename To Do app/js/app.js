@@ -145,8 +145,6 @@ function clearTasks() {
     taskList.removeChild(taskList.firstChild);
   }
 
-  // https://jsperf.com/innerhtml-vs-removechild
-
   // Clear from LS
   clearTasksFromLocalStorage();
 }
